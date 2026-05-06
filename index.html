@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arsalan Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+ 
+<button class="hamburger" id="hamburger" aria-label="Toggle menu">
+  <span></span><span></span><span></span>
+</button>
+<div class="overlay" id="overlay"></div>
+ 
+<aside class="sidebar" id="sidebar">
+  <div class="logo">Arsalan</div>
+  <nav>
+    <ul>
+      <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+      <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+      <li><a href="#project"><i class="fas fa-briefcase"></i> Projects</a></li>
+      <li><a href="#certificates"><i class="fas fa-certificate"></i> Certificates</a></li>
+      <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+    </ul>
+  </nav>
+</aside>
+ 
+<div class="main">
+ 
+  <!-- HOME -->
+  <section id="home">
+    <div class="hero-left">
+      <p class="greeting">Hi, my name is</p>
+      <h1><span>Arsalan Shah</span></h1>
+      <p class="subtitle">ENTC Engineer</p>
+      <p class="subtitle">&amp; Embedded Aspirant</p>
+      <span id="element"></span>
+      <div class="hero-buttons">
+        <a href="Arsalan_Shah_Resume.pdf" download="Arsalan_Shah_Resume.pdf" class="resume-download-btn">
+          <i class="fas fa-file-download"></i> Download Resume
+        </a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="corner-deco tl"></div>
+      <img src="my_image .jpeg" alt="Arsalan Shah" />
+      <div class="corner-deco br"></div>
+    </div>
+  </section>
+ 
+  <!-- ABOUT -->
+  <section id="about" class="section section-alt">
+    <div class="section-header">
+      <h2>About <span>Me</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="about-wrap">
+      <div class="about-img">
+        <img src="my_image .jpeg" alt="Arsalan Shah" />
+      </div>
+      <div class="about-text">
+        <p>I'm Arsalan Shah, a first-year Electronics &amp; Telecommunication Engineering student at MIT Academy of Engineering, Pune, passionate about building at the intersection of hardware and software. I'm deeply interested in Embedded Systems, Circuit Design &amp; Electronics, Robotics, and tinkering with Arduino and Raspberry Pi.</p>
+        <p>On the software side, I enjoy working with languages like C, C++, Python, JavaScript, Java, HTML, and CSS — which gives me a strong foundation across both worlds. Academically, I secured 94.5 percentile in MHT-CET (PCM) and achieved a solid 8.0 CGPI in my first semester.</p>
+        <p>I've earned certifications from NASSCOM, Cisco, IBM, and Anthropic, which have helped sharpen my understanding of technology and networking. My goal is to dive deeper into Embedded Systems — exploring how hardware and software come together to build intelligent, real-world solutions.</p>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="section-header">
+      <h2>My <span>Skills</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="skills-wrap">
+      <div class="technical">
+        <h3>Technical Skills</h3>
+        <div class="skill">
+          <div class="skill-label">HTML <span>75%</span></div>
+          <div class="bar"><div class="fill" style="width:75%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-label">CSS <span>55%</span></div>
+          <div class="bar"><div class="fill" style="width:55%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-label">C <span>70%</span></div>
+          <div class="bar"><div class="fill" style="width:70%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-label">Python <span>50%</span></div>
+          <div class="bar"><div class="fill" style="width:50%"></div></div>
+        </div>
+      </div>
+      <div class="professional">
+        <h3>Professional Skills</h3>
+        <div class="pro-grid">
+          <div class="circle-box">
+            <div class="circle">70%</div>
+            <p>Creativity</p>
+          </div>
+          <div class="circle-box">
+            <div class="circle">50%</div>
+            <p>Communication</p>
+          </div>
+          <div class="circle-box">
+            <div class="circle">80%</div>
+            <p>Problem Solving</p>
+          </div>
+          <div class="circle-box">
+            <div class="circle">90%</div>
+            <p>Teamwork</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- PROJECTS -->
+  <section id="project" class="section section-alt">
+    <div class="section-header">
+      <h2><span>Projects</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="portfolio-grid">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front"><img src="image2.jpeg" alt="Water Surface Robot" /></div>
+          <div class="flip-card-back">
+            <h3>Floating Trash Collector</h3>
+            <p>A remotely controlled boat that uses air-filled floats for support, powered by DC motors, and has a main control system to collect and remove garbage from the riverbank to keep it clean.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front"><img src="image1.jpeg" alt="PCB Layout" /></div>
+          <div class="flip-card-back">
+            <h3>Custom PCB Layout</h3>
+            <p>A double-sided circuit board design optimized for signal integrity, featuring integrated BC107 transistors and specialized trace routing.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front"><img src="Screenshot 2026-03-28 221524.png" alt="Proteus Simulation" /></div>
+          <div class="flip-card-back">
+            <h3>Digital Weighing System</h3>
+            <p>Proteus simulation of an Arduino-based scale using an HX711 amplifier, Load Cell, and LCD output for real-time monitoring.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+
+  <section id="certificates">
+    <div class="section-header" style="padding: 80px 80px 0;">
+      <h2>My <span>Certificates</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="cert-grid" style="padding: 30px 80px 80px;">
+      <div class="cert-card">
+        <img src="Arsalan_Shah_Shaukat_Shah_158435946.png" alt="NASSCOM Digital 101 Certificate" />
+      </div>
+      <div class="cert-card">
+        <img src="anthropic1.png" alt="Claude 101 Certificate" />
+      </div>
+      <div class="cert-card">
+        <img src="anthropic2.png" alt="AI Fluency for Students Certificate" />
+      </div>
+      <div class="cert-card">
+        <img src="anthropic3.png" alt="AI Fluency Framework & Foundations Certificate" />
+      </div>
+      <div class="cert-card">
+        <img src="anthropic4.png" alt="AI Fluency for Nonprofits Certificate" />
+      </div>
+    </div>
+  </section>
+ 
+ 
+  <section id="contact">
+    <div class="section-header">
+      <h2>Contact <span>Me</span></h2>
+      <div class="underline"></div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="icon-wrapper"><i class="fas fa-phone-alt"></i></div>
+        <h3>Call Us On</h3>
+        <span>+91 8956344392</span>
+      </div>
+      <div class="info-card">
+        <div class="icon-wrapper"><i class="fas fa-map-marker-alt"></i></div>
+        <h3>Address</h3>
+        <span>Alandi, Pune</span>
+      </div>
+      <div class="info-card">
+        <div class="icon-wrapper"><i class="fas fa-envelope"></i></div>
+        <h3>Email</h3>
+        <span>arsalanshah6971@gmail.com</span>
+      </div>
+      <div class="info-card">
+        <div class="icon-wrapper"><i class="fas fa-globe"></i></div>
+        <h3>Website</h3>
+        <span>Mo-designer.com</span>
+      </div>
+    </div>
+ 
+    <div class="form-area">
+      <h2 class="form-title">Send Me An Email</h2>
+      <p class="form-subtitle">I'm Very Responsive To Messages</p>
+      <div class="contact-form">
+        <div class="form-row">
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your Email" />
+        </div>
+        <input type="text" placeholder="Subject" />
+        <textarea placeholder="Your Message"></textarea>
+        <button class="btn-submit">Send Message</button>
+      </div>
+    </div>
+  </section>
+ 
+</div>
+ 
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed("#element", {
+    strings: [
+      "Student at MIT Academy of Engineering.",
+      "Specialist in PCB design and circuit simulation.",
+      "Working with both hardware and software.",
+      "Experienced in C, Python, and HTML and CSS."
+    ],
+    typeSpeed: 50,
+    backSpeed: 60,
+    loop: true
+  });
+ 
+  var hamburger = document.getElementById('hamburger');
+  var sidebar = document.getElementById('sidebar');
+  var overlay = document.getElementById('overlay');
+ 
+  function openMenu() {
+    hamburger.classList.add('open');
+    sidebar.classList.add('open');
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+ 
+  function closeMenu() {
+    hamburger.classList.remove('open');
+    sidebar.classList.remove('open');
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+ 
+  hamburger.addEventListener('click', function() {
+    if (sidebar.classList.contains('open')) {
+      closeMenu();
+    } else {
+      openMenu();
+    }
+  });
+ 
+  overlay.addEventListener('click', closeMenu);
+ 
+  document.querySelectorAll('.sidebar nav a').forEach(function(link) {
+    link.addEventListener('click', function() {
+      if (window.innerWidth <= 768) closeMenu();
+    });
+  });
+ 
+ 
+  var sections = document.querySelectorAll('section[id]');
+  var navLinks = document.querySelectorAll('.sidebar nav a');
+ 
+  window.addEventListener('scroll', function() {
+    var current = '';
+    sections.forEach(function(s) {
+      if (window.scrollY >= s.offsetTop - 150) {
+        current = s.getAttribute('id');
+      }
+    });
+    navLinks.forEach(function(a) {
+      if (a.getAttribute('href') === '#' + current) {
+        a.classList.add('active');
+      } else {
+        a.classList.remove('active');
+      }
+    });
+  });
+</script>
+</body>
+</html>
